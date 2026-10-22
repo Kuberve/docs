@@ -24,7 +24,7 @@
 | v0.6 Drivers in user | UART server, IRQ forwarding | Kernel не трогает UART DR | ✅ |
 | **v0.7 Isolation** | per-process AS, copy_to_user, sys_sbrk | A не видит память B | ✅ |
 | v0.8 Storage | NVMe driver, VFS, ФС, open/read/write | Программа с диска | ✅ |
-| v0.9 Network | TCP/IP, сокеты, DHCP | ping из userspace | ⬜ |
+| v0.9 Network | TCP/IP, сокеты, DHCP | ping из userspace | ✅ |
 | v0.10 Input | keyboard, mouse, framebuffer, GUI | Окно с текстом | ⬜ |
 | v1.0 Desktop | пакетник, init, приложения | Daily driver | ⬜ |
 
