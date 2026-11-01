@@ -48,8 +48,8 @@ These are the immediate blockers and the next feature set.
 
 | Task | Type | Status |
 |---|---|---|
-| **Fix `virtio-net` TX timeout** | Bugfix | 🚧 |
-| **Cleanup warnings** (dead code, static_mut_refs) | Chore | ⬜ |
+| ~~Fix `virtio-net` TX timeout~~ | Bugfix | ✅ v0.14.5 |
+| **Cleanup warnings** (dead code, static_mut_refs) | Chore | 🚧 |
 | **`kv update`** (local repo parsing) | Feature | ⬜ |
 | **`kv search`** (local metadata) | Feature | ⬜ |
 | **HTTP client** (for remote repositories) | Feature | ⬜ |
