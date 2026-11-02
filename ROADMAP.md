@@ -49,11 +49,13 @@ These are the immediate blockers and the next feature set.
 | Task | Type | Status |
 |---|---|---|
 | ~~Fix `virtio-net` TX timeout~~ | Bugfix | ✅ v0.14.5 |
-| **Cleanup warnings** (dead code, static_mut_refs) | Chore | 🚧 |
-| **`kv update`** (local repo parsing) | Feature | ⬜ |
-| **`kv search`** (local metadata) | Feature | ⬜ |
-| **HTTP client** (for remote repositories) | Feature | ⬜ |
-| **Ed25519 signatures for `.kvpkg`** | Security | ⬜ |
+| **Cleanup warnings** (dead code, static_mut_refs) | Chore | ✅ |
+| `kv update` (fetch index over HTTP) | Feature | ✅ v0.15.5 |
+| `kv search <query>` (local index grep) | Feature | ✅ v0.15.5 |
+| `libc::http_get` (reusable HTTP/1.0 client) | Feature | ✅ v0.15.5 |
+| `kv install` from HTTP (download .kvpkg) | Feature | 🚧 v0.15.6 |
+| Ed25519 signatures for .kvpkg | Security | ⬜ |
+| Cosmetic: IP print, sys_sleep in kv | Chore | ⬜ v0.15.5.1 |
 
 *Note on the TX timeout:* After transitioning to `opt-level = 2`, the virtio-net TX 
 queue sometimes times out during high system load (e.g., simultaneous GUI rendering 
